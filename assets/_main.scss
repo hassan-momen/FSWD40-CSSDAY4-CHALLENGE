@@ -3,12 +3,19 @@ main {
   justify-content: space-between;
   margin-bottom: -4px;
 
-  .main-content {
 
-    .main-content-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 20px 10px 70px;
-    }
+  .main-content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 70px;
+    flex-wrap: wrap;
+
+    // .main-content-card {
+    //   width: 25%;
+    //   img {
+    //     width: 100%;
+    //     // height: 100%;
+    //   }
+    // }
   }
 }

@@ -11,3 +11,64 @@ body {
   font-family: $font-stack;
   margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+    main {
+    flex-direction: column;
+
+    .main-content {
+      order: 2;
+    }
+
+    .side-content {
+      display: flex;
+      order: 1;
+
+      .side-content-card {
+        width: 50%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width:1150px) {
+  main {
+    flex-direction: column;
+
+    .main-content {
+      order: 2;
+    }
+
+    .side-content {
+      display: flex;
+      order: 1;
+
+      .side-content-card {
+        width: 25%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .nav-bottom-bar {
+    ul li {
+      display: block;
+      padding: 0 10px 0 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1151px) {
+
+}
+
+

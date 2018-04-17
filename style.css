@@ -37,10 +37,11 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: -4px; }
-  main .main-content .main-content-row {
+  main .main-content-row {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px 10px 70px; }
+    padding: 20px 20px 10px 70px;
+    flex-wrap: wrap; }
 
 footer {
   background-color: #212F3F;
@@ -58,5 +59,34 @@ footer {
 body {
   font-family: arial;
   margin: 0; }
+
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column; }
+    main .main-content {
+      order: 2; }
+    main .side-content {
+      display: flex;
+      order: 1; }
+      main .side-content .side-content-card {
+        width: 50%; }
+        main .side-content .side-content-card img {
+          width: 100%; } }
+@media screen and (min-width: 481px) and (max-width: 1150px) {
+  main {
+    flex-direction: column; }
+    main .main-content {
+      order: 2; }
+    main .side-content {
+      display: flex;
+      order: 1; }
+      main .side-content .side-content-card {
+        width: 25%; }
+        main .side-content .side-content-card img {
+          width: 100%; }
+
+  .nav-bottom-bar ul li {
+    display: block;
+    padding: 0 10px 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */
