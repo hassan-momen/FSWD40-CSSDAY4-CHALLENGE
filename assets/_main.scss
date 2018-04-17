@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -4px;
+
+  .main-content {
+
+    .main-content-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 20px 10px 70px;
+    }
+  }
+}

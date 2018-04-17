@@ -1,0 +1,61 @@
+nav {
+  width: 100%;
+  color: white;
+  background-color: #212F3F; }
+  nav .nav-top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+    flex-wrap: wrap; }
+    nav .nav-top-bar .logo {
+      width: 20%;
+      padding-right: 5px; }
+      nav .nav-top-bar .logo img {
+        width: 100%;
+        min-width: 150px; }
+    nav .nav-top-bar .logo2 h2 {
+      font-size: 16px;
+      font-weight: 100;
+      margin-top: 0px; }
+  nav .nav-bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1px 0 1px; }
+    nav .nav-bottom-bar select {
+      margin: 15px 0 0 7px; }
+    nav .nav-bottom-bar ul {
+      display: inline; }
+    nav .nav-bottom-bar li {
+      display: inline;
+      padding: 0 10px 0 10px; }
+
+hero img {
+  width: 100%; }
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -4px; }
+  main .main-content .main-content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 70px; }
+
+footer {
+  background-color: #212F3F;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 12px; }
+  footer ul {
+    display: inline; }
+  footer li {
+    display: inline;
+    text-align: center;
+    padding: 0 15px 0 15px; }
+
+body {
+  font-family: arial;
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

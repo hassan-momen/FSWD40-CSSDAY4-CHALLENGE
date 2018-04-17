@@ -1,0 +1,13 @@
+$primary-color: #212F3F;
+$font-stack: arial;
+
+@import 'assets/navigation';
+@import 'assets/hero';
+@import 'assets/main';
+@import 'assets/footer';
+
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+}
