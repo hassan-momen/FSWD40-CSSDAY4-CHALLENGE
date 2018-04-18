@@ -61,6 +61,16 @@ body {
   margin: 0; }
 
 @media screen and (max-width: 480px) {
+  .nav-bottom-bar {
+    flex-direction: column; }
+    .nav-bottom-bar ul li {
+      display: block;
+      padding: 0 10px 0 10px; }
+    .nav-bottom-bar select#departments {
+      width: 100px; }
+    .nav-bottom-bar select#lang {
+      width: 50px; }
+
   main {
     flex-direction: column; }
     main .main-content {
@@ -85,8 +95,14 @@ body {
         main .side-content .side-content-card img {
           width: 100%; }
 
-  .nav-bottom-bar ul li {
-    display: block;
-    padding: 0 10px 0 10px; } }
+  .nav-bottom-bar {
+    flex-direction: column; }
+    .nav-bottom-bar ul li {
+      display: block;
+      padding: 0 10px 0 10px; }
+    .nav-bottom-bar select#departments {
+      width: 100px; }
+    .nav-bottom-bar select#lang {
+      width: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -13,6 +13,24 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    .nav-bottom-bar {
+    flex-direction: column;
+    ul li {
+      display: block;
+      padding: 0 10px 0 10px;
+    }
+
+    select {
+      &#departments {
+        width: 100px;
+      }
+
+      &#lang {
+        width: 50px;
+      }
+    }
+    }
+
     main {
     flex-direction: column;
 
@@ -60,9 +78,20 @@ body {
   }
 
   .nav-bottom-bar {
+    flex-direction: column;
     ul li {
       display: block;
       padding: 0 10px 0 10px;
+    }
+
+    select {
+      &#departments {
+        width: 100px;
+      }
+
+      &#lang {
+        width: 50px;
+      }
     }
   }
 }
